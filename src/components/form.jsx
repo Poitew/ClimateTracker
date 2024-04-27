@@ -10,7 +10,7 @@ function FetchForm(){
     function handleFetch(){
         let input = document.getElementById("paese").value || "napoli";
 
-        fetch(`https://api.openweathermap.org/data/2.5/weather?&q=${input}&appid=74aa0a5599e9403269c7420fe99e5bfa&units=metric&lang=it`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?&q=${input}&appid=&units=metric&lang=it`)
         .then(response => {
             if(!response.ok){
                 throw new error("Could not fetch resources");
