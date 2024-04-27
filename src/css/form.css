@@ -1,0 +1,32 @@
+.form {
+    float: left;
+    width: 40vw;
+    margin: 3% 0 0 5%;
+    position: absolute;
+    top: 0;
+}
+
+.form label {
+    margin-left: 2.5%;
+}
+
+#paese, textarea {
+    height: 4vh;
+    padding-left: 2%;
+    background-color: rgb(59, 99, 164);
+    border: none;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+}
+
+#fetch-button {
+    height: 4.5vh;
+    border: none;
+    transition: border 2s ease-in-out;
+    border-top-right-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+
+#fetch-button:hover {
+    border: 2px solid gray;
+}

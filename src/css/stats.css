@@ -1,0 +1,49 @@
+h1 {
+    float: left;
+    font-size: 5vw;
+    text-transform: uppercase;
+    margin: 27% 0 0 5%;
+}
+
+h2 {
+    font-size: 4vw;
+    margin: 0;
+}
+
+.stato {
+    width: 100%;
+    height: 100%;
+}
+
+#data {
+    width: 20vw;
+    margin: 2% 8% 0 0;
+    float: right;
+}
+
+aside {
+    width: 15vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 20% 20% 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 2px solid rgb(25, 104, 104);
+    text-align: center;
+    background-color: rgb(30, 51, 99);
+    box-shadow: -4px -1px 15px 3px rgb(50, 50, 200);
+}
+
+#immagine {
+    width: 10vw;
+}
+
+.center {
+    margin: auto;
+}
+
+.row2 {
+    width: 85%;
+}
