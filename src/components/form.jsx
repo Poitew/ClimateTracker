@@ -44,7 +44,8 @@ function FetchForm(){
 
             switch(fetch_descrizione.toLowerCase()){
 
-                case "pioggia": case "pioggerella": case "pioggia leggera": case "pioggia moderata": case "forte pioggia": case "temporale":
+                case "pioggia": case "pioggerella": case "pioggia leggera": case "pioggia moderata": 
+                case "forte pioggia": case "temporale": case"temporale con pioggia":
                     body.style.background = "url(/assets/backgrounds/heavy_rain.jpg)";
                     body.style.backgroundSize = "cover";
                 break;
